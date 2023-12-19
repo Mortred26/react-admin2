@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* font-family: 'Inter', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+main {
+  width: 100%;
+}
+
+.mains {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.dashboard-main {
+  border: 0.5px solid rgba(232, 232, 233, 0.6);
+  max-width: 212px;
+}
+
+.logo {
+  padding: 20px;
+  margin-bottom: 24px;
+}
+.dashboard {
+  border: 1px rgba(232, 232, 233, 0.6);
+  border-style: solid none;
+  max-width: 212px;
+}
+.dashboard-list {
+  display: flex;
+  padding: 12px;
+  margin: 0 14px;
+  max-width: 212px;
+}
+
+.dashboard-name {
+  margin-left: 12px;
+}
+.selector {
+  margin-left: 50px;
+}
+.dashboard-list:hover {
+  border-radius: 6px;
+  border: 0.5px solid #3490f6;
+  background-color: rgba(224, 236, 255, 1);
+}
+.open-flex {
+  display: flex;
+  padding: 12px;
+}
+.open-flex:hover {
+  border: 0.5px solid #3490f6;
+}
+
+.dashboard-list:hover .openflexfill {
+  fill: #3490f6;
+}
+.dashboardOpen {
+  margin-left: 32px;
+  display: none;
+}
+.open {
+  display: block;
+}
+.dashboardOpen-name {
+  margin-left: 14px;
+}
+
+.dashboard-list2 {
+  display: flex;
+  padding: 12px;
+  margin: 0 14px;
+  max-width: 212px;
+  margin-top: 286px;
+}
+
+.dashboard-list3 {
+  display: flex;
+  align-items: center;
+  padding: 16px 20px;
+  max-width: 212px;
+}
+.bigC {
+  margin-right: 12px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  background-color: #3490f6;
+  color: white;
+}
+/* main */
+
+/* section */
+.container2 {
+  padding: 16px 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.example-list {
+  display: flex;
+}
+.example-name {
+  margin-left: 16px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.addcard-main {
+  display: flex;
+  margin-left: auto;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background-color: #3490f6;
+}
+.add-card {
+  border: 0;
+  height: 20px;
+}
+.addcard-plus {
+  fill: #3490f6;
+  background-color: #3490f6;
+}
+
+.addcard-plus:hover {
+  border: 1px solid white;
+}
+
+.addcard-name {
+  margin-left: 8px;
+  font-family: Inter;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+}
+/* section end */
+
+/* section2 */
+.section2 {
+  border: 0.5px #e0e4f0;
+  border-style: solid none none none;
+}
+.search-main {
+  display: flex;
+  align-items: center;
+  padding-top: 9px;
+}
+.cont-name {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.84px;
+}
+.searchProduct {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding: 8px;
+  border: 0.5px solid #e0e4f0;
+  border-radius: 8px;
+}
+
+.product-search {
+  width: 278px;
+  margin-left: 8px;
+  border: none;
+}
+
+.product-search::placeholder {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.92px;
+}
+
+.product-search:focus {
+  outline: none;
+}
+/* section2 end */
+
+/* section3 */
+
+table {
+  border: 1px solid #e0e4f0;
+  text-align: left;
+}
+
+th {
+  padding: 13px 16px;
+}
+
+td {
+  padding: 11px 16px;
+  border: 0.5px #e0e4f0;
+  border-style: solid none none none;
+}
+
+.td-center {
+  text-align: center;
+}
+
+.button-dote {
+  padding: 5px;
+}
+
+.editors {
+  display: none;
+  box-shadow: 0px 8px 8px -4px rgba(21, 21, 21, 0.03);
+  border-radius: 8px;
+  border: 0.5px solid #e0e4f0;
+  position: absolute;
+  background-color: #fff;
+}
+
+.edit {
+  display: flex;
+  padding: 10px 16px;
+  align-items: center;
+}
+
+.delete {
+  display: flex;
+  padding: 10px 16px;
+  align-items: center;
+  width: 140px;
+}
+
+.delete-btn {
+  background-color: #fff;
+  border: none;
+}
+.editor-name {
+  margin-left: 8px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.92px;
+}
+
+.open-editors {
+  display: block;
+}
+/* section3 end */
+/* main end */
+
+.router-link {
+  text-decoration: none;
+}
