@@ -56,19 +56,22 @@ function List() {
       });
   }, []);
 
-  const multpleDelete = () => {
+  const multpleDelete = async () => {
     let arr = [];
     data.forEach((item) => {
       if (item.select) arr.push(item._id);
     });
+
     for (let i = 0; i < arr.length; i++) {
-      fetch(
+      await fetch(
         `https://coffe-backend-txf2.onrender.com/api/v1/product/${arr[i]}`,
         {
           method: "DELETE",
         }
       );
-      console.log(arr);
+
+      // Update state to remove the deleted item from the UI
+      usedata((prevData) => prevData.filter((item) => item._id !== arr[i]));
     }
   };
 
