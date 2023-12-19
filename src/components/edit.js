@@ -19,7 +19,7 @@ function Edit() {
 
   useEffect(() => {
     console.log(listid);
-    fetch("https://coffe-backend-txf2.onrender.com/v1/product/" + listid)
+    fetch("https://coffe-backend-txf2.onrender.com/api/v1/product/" + listid)
       .then((response) => response.json())
       .then((response) => {
         nameChange(response.name);
